@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 1366px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+div.line {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    outline: 0;
+    border: 0;
+}
+
+div.block {
+    display: block;
+    margin: auto;
+    float: left;
+}
+
+.catalog {
+    margin: 40px 83px 120px 83px;
+    float: left;
+}
+
+div.text {
+    display: inline-block;
+    float: left;
+}
+
+p {
+    color: #6c6c6c;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+div.text h1 {
+    color: #212121;
+    font-weight: 100;
+    font-size: 62px;
+    letter-spacing: -3px;
+}
+
+div.text h2 {
+    color: #43a047;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 1px;
+}
+
+a.orderus {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    border-radius: 22px;
+    line-height: 45px;
+    letter-spacing: 3px;
+}
+
+a.orderus:hover {
+    box-shadow: 0px 2px 6px 0.25px rgba(33, 33, 33, 0.55);
+}
+
+a.orderus:active {
+    box-shadow: none;
+}
+
+a.orderus-big {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    border-radius: 255px;
+    line-height: 71px;
+    letter-spacing: 3px;
+}
+
+a.orderus-big:hover {
+    box-shadow: 0px 2px 6px 0.25px rgba(33, 33, 33, 0.55);
+}
+
+a.orderus-big:active {
+    box-shadow: none;
+}
+
+
+a.button-explore {
+    margin: 138px 97px 0 0;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    float: right;
+    letter-spacing: 3px;
+}
+
+
+
+/* НАЧАЛО Шапка */
+
+div#header {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    display: block;
+}
+
+ul.menu li a:not([class="search"]):hover {
+    color: #212121;
+    font-weight: 400;
+}
+
+#menu-a {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 4px solid black;
+}
+
+a.search img {
+    padding-top: 12px;
+}
+
+/* КОНЕЦ Шапка */
+
+/* НАЧАЛО Каталог 1 */
+
+ul.menu-featured {
+    margin: 120px 0 0 107px;
+    float: left;
+}
+
+ul.menu-featured a {
+    color: #6c6c6c;
+    line-height: 64px;
+}
+
+ul.menu-featured a:hover,
+#menu-featured-a a {
+    color: #212121;
+}
+
+ul.menu-featured li {
+    border-bottom: 1px solid black;
+    float: left;
+    padding: 0 10px;
+    display: block;
+    font-size: 36px;
+    text-align: left;
+}
+
+ul.menu-featured li:hover,
+#menu-featured-a {
+    border-bottom: 3px solid black;
+    font-weight: 700;
+}
+
+ul.menu-featured-low {
+    margin: 120px 0 0 107px;
+    float: left;
+    font-weight: 700;
+}
+
+ul.menu-featured-low a {
+    color: #6c6c6c;
+    line-height: 64px;
+}
+
+ul.menu-featured-low a:hover,
+#menu-featured-low-a a {
+    color: #212121;
+}
+
+ul.menu-featured-low li {
+    border-bottom: 1px solid black;
+    float: left;
+    padding: 0 10px;
+    display: block;
+    font-size: 18px;
+    text-align: left;
+}
+
+ul.menu-featured-low li:hover,
+#menu-featured-low-a {
+    border-bottom: 3px solid black;
+}
+
+ul.details-menu {
+    margin-top: 25px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+ul.details-menu li {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline;
+}
+
+ul.details-menu a {
+    color: #6c6c6c;
+}
+
+#details-menu-a, ul.details-menu a:hover  {
+    color:  #212121;
+}
+
+a.product1 {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+    outline: 1px solid #fff;
+    float: left;
+    display: block;
+}
+
+a.product1:hover {
+    outline: 1px solid #9c9c9c;
+    opacity: 0.9;
+}
+
+
+a.product2 {
+    width: 370px;
+    height: 370px;
+    margin: 15px;
+    outline: 1px solid #fff;
+    float: left;
+    display: block;
+}
+
+a.product5 {
+    width: 70px;
+    height: 70px;
+    display: inline;
+    text-align: center;
+}
+
+div.product3 {
+    float: left;
+    height: 570px;
+    width: 570px;
+}
+
+div.product4 {
+    float: left;
+    width: 50%;
+    height: 683px;
+}
+
+
+
+table.footer {
+    width: 100%;
+}
+
+table.footer td {
+    padding-right: 80px;
+}
+
+ul.footer-menu,
+ul.footer-menu a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    float: left;
+}
+
+div.email {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+div.email input[type="email"] {
+    border: none;
+    padding: 0 17px;
+    max-width: 288px;
+    width: 100%;
+    line-height: 46px;
+
+}
+
+div.email input[type="submit"] {
+    border: none;
+    background-color: #ffffff;
+    width: 46px;
+    height: 46px;
+    float: right;
+    display: block;
+    background-image: url(img/strelka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul.ss {
+    float: right;
+}
+
+ul.ss li {
+    float: left;
+}
+
+div.contact-address {
+    margin: 15px;
+    padding: 48px;
+    width: 272px;
+    height: 272px;
+    border: 1px solid #9c9c9c;
+    float: left;
+    text-align: center;
+}
